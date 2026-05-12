@@ -1,0 +1,16 @@
+#ifndef AGENT_FRAMEWORK_FILEREADTOOL_H
+#define AGENT_FRAMEWORK_FILEREADTOOL_H
+
+#include "../../interfaces/ITool.h"
+#include <string>
+
+class FileReadTool : public ITool {
+private:
+    std::string base_directory;
+public:
+    FileReadTool(const std::string & base_dir = ".");
+    ToolDefinition get_definition() const override;
+    ToolResult execute(const json &arguments) override;
+};
+
+#endif //AGENT_FRAMEWORK_FILEREADTOOL_H

@@ -1,0 +1,12 @@
+{
+  "model_path": "path/to/your/model.gguf",
+  "embed_path": "path/to/your/embedder.gguf",
+  "embedder_id": "embedder-name",
+  "knowledge_dir": "data/knowledge",
+  "skills_dir": "data/skills",
+  "workspace_dir": "data/workspace",
+  "memory_file": "data/memory.json",
+  "skill_ids": [],
+  "context_size": 32000,
+  "batch_size": 1000
+}

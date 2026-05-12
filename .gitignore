@@ -1,0 +1,29 @@
+# Build
+cmake-build-*/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.user
+
+config.json
+test_config.json
+
+
+
+data/memory.json
+data/workspace/
+data/**/.skill_embeddings.json
+data/**/.knowledge_embeddings.json
+*.gguf
+
+
+*.exe
+*.dll
+*.obj
+*.lib
+*.pdb
+
+.DS_Store
+Thumbs.db

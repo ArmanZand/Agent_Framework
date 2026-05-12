@@ -1,0 +1,86 @@
+GROWTH PORTFOLIO — HOLDINGS STATEMENT
+As of 15 November 2024
+Base currency: GBP
+
+=== POSITIONS ===
+
+Ticker / Name                    Asset Class    Geography   Sector              Weight    Cost Basis   Current Value
+-----------------------------------------------------------------------------------------------------------------
+NVDA  Nvidia Corp                Equity         US          Technology          14.2%      £41,200       £68,940
+MSFT  Microsoft Corp             Equity         US          Technology           9.8%      £38,100       £47,530
+ASML  ASML Holding NV            Equity         Europe      Technology           7.4%      £22,800       £35,890
+RDSA  Shell PLC                  Equity         UK          Energy               6.1%      £19,400       £29,600
+AZN   AstraZeneca PLC            Equity         UK          Healthcare           5.9%      £28,300       £28,620
+NOVO  Novo Nordisk A/S           Equity         Europe      Healthcare           5.4%      £11,200       £26,200
+9984  SoftBank Group             Equity         Japan       Technology           4.8%      £18,900       £23,290
+VOW3  Volkswagen AG              Equity         Europe      Consumer Cyclical    4.2%      £24,100       £20,370
+BATS  British American Tobacco   Equity         UK          Consumer Staples     3.8%      £21,600       £18,430
+EM    iShares EM ETF             Equity ETF     EM          Diversified          3.4%      £14,200       £16,490
+
+TLT   iShares 20Y UST ETF        Fixed Income   US          Government bonds     5.2%      £28,400       £25,220
+IGLT  iShares UK Gilts ETF       Fixed Income   UK          Government bonds     4.1%      £21,300       £19,880
+HYG   iShares USD HY Corp ETF    Fixed Income   US          High yield bonds     3.1%      £16,100       £15,040
+
+GLD   SPDR Gold ETF              Commodity      Global      Gold                 4.6%      £14,900       £22,310
+AIGA  Amundi Infrastructure      Alternative    Global      Infrastructure       3.8%      £18,400       £18,430
+
+Cash (GBP)                       Cash           UK          —                   14.2%       —            £68,860
+
+TOTAL PORTFOLIO VALUE: £484,900
+
+=== SUMMARY BY ASSET CLASS ===
+
+Asset Class          Weight    # Positions
+Equities              65.0%        10
+Fixed Income          12.4%         3
+Commodities            4.6%         1
+Alternatives           3.8%         1
+Cash                  14.2%         1
+
+=== SUMMARY BY GEOGRAPHY ===
+
+Geography     Weight
+US            33.4%
+UK            19.9%
+Europe        21.8%
+Japan          4.8%
+EM             3.4%
+Global         8.4%
+Cash          14.2% (GBP)
+
+=== SUMMARY BY SECTOR (equities only) ===
+
+Sector                 Weight (of equity sleeve)
+Technology                    57.8%    ← Nvidia + Microsoft + ASML + SoftBank
+Healthcare                    17.4%
+Energy                         9.4%
+Consumer Cyclical              6.5%
+Consumer Staples               5.8%
+EM Diversified                 5.2%    (ETF, multi-sector)
+
+=== PERFORMANCE ===
+
+                      Inception   FY2022    FY2023    YTD 2024
+Portfolio return        +42.1%    -18.4%    +24.7%    +19.3%
+Benchmark (MSCI World)  +31.8%    -17.9%    +22.8%    +18.1%
+Active return            +10.3%    -0.5%     +1.9%     +1.2%
+
+Portfolio inception: 1 January 2022
+
+=== COST SUMMARY ===
+
+Total cost basis:             £359,000
+Total current value:          £484,900
+Unrealised gain/loss:         +£125,900  (+35.1%)
+Dividends received YTD:        £8,420
+Total return (inc. divs):     +£134,320  (+37.4%)
+
+=== NOTES ===
+
+- Nvidia position has grown from 8% target weight to 14.2% due to price appreciation.
+  Rebalance trigger: position exceeds 15% or at year-end review.
+- Volkswagen position is underwater (-£3,730, -15.5%). Original thesis was EV transition
+  recovery; thesis has not played out in 3 years. Review for exit.
+- Cash is elevated (14.2% vs 5% target) pending reinvestment decision.
+  Earmarked for fixed income increase and possible new equity position.
+- Infrastructure allocation (Amundi) is illiquid — quarterly redemption window only.

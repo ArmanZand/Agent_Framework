@@ -1,0 +1,44 @@
+OPEN RESEARCH & ANALYSIS TASKS
+Last updated: 18 November 2024
+
+--- PENDING ---
+
+[1] ORION DYNAMICS — FULL ANALYSIS
+Priority: HIGH
+Files: company_reports/orion_dynamics_q3_2024.txt
+Request: Full financial statement analysis plus a rough valuation range using EV/EBITDA
+comps (industrial sector median ~8–10x EBITDA). Flag any red flags.
+Owner: unassigned
+
+[2] PORTFOLIO REVIEW — GROWTH PORTFOLIO
+Priority: HIGH
+Files: portfolios/growth_portfolio_nov2024.txt
+Request: Identify concentration risks. Technology is believed to be too heavy.
+Confirm and suggest rebalancing approach. Also assess the Volkswagen position.
+Owner: unassigned
+
+[3] SEMICONDUCTOR SECTOR — PORTFOLIO RELEVANCE
+Priority: MEDIUM
+Files: research/semiconductor_sector_note.txt, portfolios/growth_portfolio_nov2024.txt
+Request: Cross-reference the sector note against portfolio holdings.
+Which holdings benefit most from the AI infrastructure theme?
+What is the portfolio's net exposure to the US–China export restriction risk?
+Owner: unassigned
+
+[4] MACRO POSITIONING CHECK
+Priority: MEDIUM
+Files: research/macro_brief_q4_2024.txt, portfolios/growth_portfolio_nov2024.txt
+Request: Assess whether the portfolio is well positioned for the Q4 2024 macro outlook
+described in the brief. Identify any mismatches.
+Owner: unassigned
+
+[5] CEDARBROOK CAPITAL — QUICK SCREEN
+Priority: LOW
+Files: company_reports/cedarbrook_annual_2023.txt
+Request: Is this a high-quality business? Screen using: FCF conversion, ROIC, net cash,
+revenue quality (ARR/churn). One-page summary only.
+Owner: unassigned
+
+--- COMPLETED ---
+
+[none yet]

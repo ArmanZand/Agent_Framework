@@ -1,0 +1,75 @@
+SECTOR RESEARCH NOTE — SEMICONDUCTORS
+Prepared: October 2024  |  Analyst: Internal Research
+
+=== SECTOR OVERVIEW ===
+
+The global semiconductor industry is projected to reach $697bn in revenue for 2024,
+up approximately 16% from $601bn in 2023, driven by a sharp recovery in memory pricing
+and continued demand growth in AI accelerators. The prior downturn (2022–2023) was
+characterised by inventory corrections across consumer electronics and PC markets.
+
+Market structure:
+- AI accelerators / data centre GPUs: ~$140bn TAM (2024E), growing >40% CAGR to 2027
+- Memory (DRAM + NAND): ~$130bn TAM, highly cyclical, recovering from 2023 trough
+- Logic / foundry: dominated by TSMC (~60% of advanced node capacity)
+- Analogue: fragmented, more defensive, less exposure to AI spending cycle
+- Equipment: ASML (EUV monopoly), Applied Materials, Lam Research
+
+=== DEMAND DRIVERS ===
+
+Near-term (12–18 months):
+1. AI infrastructure buildout — hyperscalers (Microsoft, Google, Amazon, Meta) are each
+   committing $40–60bn in capex for FY2024/25, majority towards GPU clusters.
+2. Memory pricing recovery — DRAM spot prices up ~55% YTD from Jan 2024 trough.
+3. Smartphone upgrade cycle — modest recovery after two years of contraction.
+
+Medium-term (2–4 years):
+1. Sovereign AI programmes — US, EU, Japan, India investing in domestic compute.
+2. Automotive semiconductor content growth — EVs require ~2x silicon vs ICE vehicles.
+3. Edge AI — inference chips in devices, industrial IoT.
+
+Risk factors:
+1. US–China export restrictions — further tightening could cut ~$5–8bn annual revenue
+   for Nvidia alone; broader equipment restrictions affect ASML (China ~25% of 2023 revenue).
+2. Capex digestion — if hyperscaler AI spending plateaus or disappoints, GPU demand
+   could contract sharply.
+3. Cyclicality — memory segments historically see -30% to -50% revenue declines in
+   downturn years.
+4. Concentration risk — TSMC manufactures >90% of chips below 5nm; geopolitical risk
+   around Taiwan remains a tail risk.
+
+=== VALUATION SNAPSHOT (Oct 2024, indicative) ===
+
+Company         P/E (fwd)  EV/EBITDA  Revenue Growth (est. FY24)  Notes
+Nvidia           ~35x        ~28x       +120%                       AI GPU dominance
+ASML             ~28x        ~22x       +10%                        EUV monopoly, China risk
+Broadcom         ~26x        ~21x       +50%                        AI networking; VMware consolidation
+TSMC (ADR)       ~22x        ~16x       +30%                        Foundry; USD revenue, TWD costs
+Samsung Elec.    ~18x        ~11x       +40%                        Memory recovery; logic lagging
+Texas Instruments ~22x       ~16x       +2%                         Analogue defensive; inventory still elevated
+Intel             ~28x       ~15x       n/m                         Turnaround play; foundry losses ongoing
+
+Sector median P/E: ~24x  (vs 5-year average: ~18x)
+Current premium is justified by AI growth; derated rapidly if demand disappoints.
+
+=== POSITIONING FRAMEWORK ===
+
+Overweight:
+- ASML — EUV monopoly is structural; China headwind largely priced in
+- TSMC — Irreplaceable manufacturing position; attractive relative valuation
+
+Neutral:
+- Nvidia — Exceptional business, but 35x forward P/E prices in continued perfection
+- Broadcom — Good execution; VMware synergies taking time
+
+Underweight / avoid:
+- Intel — Foundry strategy execution risk; multiple years from competitive parity
+- Memory pure-plays — High cyclicality; current upcycle pricing in already
+
+=== KEY QUESTIONS FOR NEXT EARNINGS SEASON ===
+
+1. Are hyperscaler GPU order cadences holding or starting to stretch out?
+2. ASML bookings — is the Q3 2024 shortfall a one-quarter blip or trend change?
+3. Memory: are contract DRAM prices following spot higher, or is spot running ahead?
+4. TSMC N2 yield ramp — on track for 2025 HVM?
+5. Intel 18A — any customer tape-outs announced?

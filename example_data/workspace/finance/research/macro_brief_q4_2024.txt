@@ -1,0 +1,94 @@
+MACRO BRIEF — Q4 2024 OUTLOOK
+Internal Research  |  September 2024
+
+=== GLOBAL GROWTH PICTURE ===
+
+IMF World GDP forecast 2024: +3.2% (unchanged from April revision)
+Dispersion across regions remains high.
+
+US:
+- GDP growth tracking ~2.7% for 2024, above consensus entering the year.
+- Labour market softening but not deteriorating: unemployment 4.2% (Aug 2024).
+- PCE inflation: 2.5% YoY (Jul 2024), trending toward 2% target.
+- Fed cut 50bps in September 2024. Market pricing ~150bps total cuts by end 2025.
+- Soft landing appears most likely scenario (~60% probability).
+
+Eurozone:
+- GDP growth ~0.8% for 2024. Germany in technical recession.
+- ECB cut twice in 2024 (Jun, Sep). More cuts expected.
+- Inflation: 2.2% (Sep 2024), near target.
+- Structural issues: energy costs, industrial competitiveness, fiscal fragmentation.
+- Biggest drag: auto sector transition and loss of cheap Russian energy permanently.
+
+China:
+- GDP growth ~4.8% for 2024, below 5% official target.
+- Property sector crisis ongoing; Evergrande liquidated Feb 2024.
+- Deflation risk: CPI at 0.4%, PPI -1.8% (Aug 2024).
+- Stimulus: PBOC cut RRR and LPR rates; fiscal stimulus announced Sep 2024 (~$280bn).
+- Recovery uncertain; domestic consumption weak despite policy support.
+
+UK:
+- GDP growth ~1.1% for 2024. Recovery from 2023 stagnation.
+- Bank of England cut in Aug 2024 (first since 2020); cautious easing path.
+- Inflation sticky: services CPI 5.6%.
+
+Japan:
+- GDP growth ~0.4% for 2024.
+- BoJ hiking for the first time in decades; JPY volatility elevated.
+- Core inflation 2.0%; wage growth finally positive in real terms.
+
+Emerging Markets:
+- India: +7.0%, structural growth story intact.
+- Brazil: +2.2%, commodity-supported.
+- EM broadly: benefit from falling USD and Fed cuts, but idiosyncratic risks persist.
+
+=== RATES & FIXED INCOME ===
+
+US 10Y yield: 3.78% (Sep 2024)
+UK 10Y gilt yield: 4.02%
+German 10Y Bund: 2.13%
+Japan 10Y JGB: 0.87%
+
+Yield curve: US curve uninverted (2Y/10Y spread +10bps) after prolonged inversion.
+Signal: recession risk fading but not eliminated.
+
+Investment grade credit spreads: 90bps (OAS) — tight by historical standards.
+High yield spreads: 315bps — pricing in benign default environment.
+
+Risk: credit spreads could widen sharply if growth disappoints given current tightness.
+
+=== CURRENCIES ===
+
+USD Index (DXY): 101.2 (weakening trend as Fed cuts begin)
+EUR/USD: 1.112
+GBP/USD: 1.338
+USD/JPY: 143.5 (JPY strengthening from 160 peak)
+USD/CNY: 7.08
+
+GBP view: supported by sticky inflation (delays BoE cuts); near-term range 1.30–1.35.
+
+=== COMMODITIES ===
+
+Brent crude: $74/bbl
+Gold: $2,620/oz (all-time high driven by central bank buying + rate cut expectations)
+Copper: $9,750/t (China stimulus-sensitive; watch for demand confirmation)
+Natural gas (European TTF): €38/MWh (normalised from 2022 spike)
+
+=== TAIL RISKS FOR Q4 2024 ===
+
+1. US election outcome (Nov 2024) — tariff escalation under either outcome possible;
+   higher tariff scenario negative for global trade, EM, and European exports.
+2. Middle East escalation — oil supply disruption risk; Brent spike to $100+ tail.
+3. China stimulus disappointment — if announced measures don't translate to demand,
+   commodity cycle and EM equities face renewed selling.
+4. Japan policy error — over-rapid BoJ tightening could unwind yen carry trades
+   (estimated ~$4trn) causing cross-asset volatility spike.
+5. Credit event — leveraged buyout market stress as refinancing walls approach 2025/26.
+
+=== ASSET ALLOCATION IMPLICATIONS ===
+
+Equities: neutral. Valuations full in US (S&P 500 fwd P/E ~21x). Europe/EM cheaper.
+Fixed income: constructive on duration. Real yields positive; cutting cycle supportive.
+Gold: hold. Central bank demand structural; performs well in rate-cut environments.
+Cash: reduce as rates fall; deploy into fixed income ladder.
+Alternatives: infrastructure and real assets attractive for inflation hedging.
