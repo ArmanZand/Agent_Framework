@@ -10,6 +10,7 @@
 #include "../tools/memory/SearchMemoryTool.h"
 namespace fs = std::filesystem;
 
+
 Agent::Agent(
     PrivateToken,
     const AgentConfig & config,
@@ -32,6 +33,7 @@ Agent::Agent(
     fprintf(stdout, "[Agent] Initialized. Context: %u tokens\n", context_->allocated_context());
     fflush(stdout);
 }
+
 
 Agent::~Agent() {
     save_memory();
@@ -69,7 +71,6 @@ std::shared_ptr<Agent> Agent::create(const AgentConfig & config, std::shared_ptr
 }
 
 
-
 std::string Agent::chat(const std::string &user_message) {
     Stopwatch turn_sw;
     TurnStats ts;
@@ -99,6 +100,8 @@ void Agent::new_conversation() {
     context_manager_.clear_history();
     context_manager_.rebuild_cache();
 }
+
+
 
 void Agent::set_role_description(const std::string &role_description) {
     agent_role_description_ =role_description;
@@ -146,6 +149,7 @@ void Agent::set_skills(const std::vector<std::string> &skill_ids) {
     }
 }
 
+
 void Agent::set_knowledge_directory(const std::string &path) {
     knowledge_base_ = std::make_shared<KnowledgeBase>(embedder_);
     if (!knowledge_base_->load_directory(path)) {
@@ -158,7 +162,6 @@ void Agent::set_knowledge_directory(const std::string &path) {
 
     build_system_prompt();
     context_manager_.flush_pending();
-
 }
 
 void Agent::set_skill_directory(const std::string &path) {
@@ -182,6 +185,7 @@ void Agent::set_memory_file(const std::string &path) {
     build_system_prompt();
     context_manager_.flush_pending();
 }
+
 
 void Agent::save_memory() {
     if (memory_manager_ && !memory_path_.empty())
@@ -226,6 +230,13 @@ std::string Agent::build_system_prompt() {
     return system;
 }
 
+
+ContextStats Agent::context_stats() const { return context_manager_.get_stats(); }
+
+
+AgentStats Agent::stats() const { return stats_; }
+
+
 void Agent::begin_turn(TurnStats &ts) {
     ts.context_start = context_manager_.get_stats();
     context_manager_.reset_stats();
@@ -247,8 +258,9 @@ std::string Agent::build_enriched_user_message(const std::string &user_message) 
     return hints + enriched;
 }
 
+
 void Agent::run_generation_loop(StreamState &state, std::string &accumulated, std::string &final_response,
-    TurnStats &ts) {
+                                TurnStats &ts) {
     int context_full_count = 0;
     bool last_was_tool_call = false;
     int iter = 0;
@@ -280,8 +292,9 @@ void Agent::run_generation_loop(StreamState &state, std::string &accumulated, st
     }
 }
 
+
 void Agent::finalize_turn(const std::string &user_message, const std::string &final_response, TurnStats &ts,
-    double turn_ms) {
+                          double turn_ms) {
     context_manager_.add_assistant(final_response);
     if (config_.knowledge.compaction_token_threshold > 0)
         context_manager_.compact_tool_results(config_.knowledge.compaction_token_threshold);
@@ -295,6 +308,7 @@ void Agent::finalize_turn(const std::string &user_message, const std::string &fi
 
     consolidate_memory(user_message, final_response);
 }
+
 
 bool Agent::init_rag_components() {
     if (!embedder_) {
@@ -333,6 +347,7 @@ bool Agent::init_rag_components() {
     return true;
 }
 
+
 void Agent::consolidate_memory(const std::string &user_message, const std::string &assistant_response) {
     if (!memory_manager_ || assistant_response.size() < config_.memory.consolidate_assistant_threshold) return;
 
@@ -350,6 +365,7 @@ void Agent::consolidate_memory(const std::string &user_message, const std::strin
     }
 }
 
+
 std::string Agent::build_memory_hints(const std::string &query) const {
     if (!memory_manager_ || memory_manager_->size() == 0) return {};
 
@@ -364,6 +380,7 @@ std::string Agent::build_memory_hints(const std::string &query) const {
     fprintf(stdout, "[Agent] Memory Hint Given:\n%s\n", block.c_str());
     return block;
 }
+
 
 std::string Agent::memory_enrich_user_message(const std::string &user_message) {
     if (memory_manager_ && memory_manager_->size() > 0) {
@@ -382,6 +399,7 @@ std::string Agent::memory_enrich_user_message(const std::string &user_message) {
     return {};
 }
 
+
 GenerationPass Agent::run_generation_pass(StreamState &state) {
     state.reset_for_next_pass();
     auto & cb = config_.callbacks;
@@ -399,6 +417,7 @@ GenerationPass Agent::run_generation_pass(StreamState &state) {
     if (first != std::string::npos && first > 0) response = response.substr(first);
     return { result, response };
 }
+
 
 bool Agent::run_tool_calls(const StreamState &state, const std::string & final_response, TurnStats &stats) {
     auto & cb = config_.callbacks;
@@ -440,6 +459,7 @@ bool Agent::run_tool_calls(const StreamState &state, const std::string & final_r
 
 }
 
+
 bool Agent::recover_from_context_full(StreamState &state, std::string &accumulated, int &count, TurnStats &stats) {
     if (++count > 2) {
         fprintf(stderr, "[Agent] Repeated context full - aborting turn.\n");
@@ -462,7 +482,6 @@ bool Agent::recover_from_context_full(StreamState &state, std::string &accumulat
     sampler_->reset();
     return true;
 }
-
 
 
 void Agent::clear_skills() {

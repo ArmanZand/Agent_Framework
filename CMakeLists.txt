@@ -15,7 +15,6 @@ add_executable(agent_framework src/main.cpp
         src/interfaces/ITool.h
         src/tools/ToolRegistry.cpp
         src/tools/ToolRegistry.h
-        src/interfaces/IModel.h
         src/infrastructure/MemoryConfig.h
         src/infrastructure/SamplingConfig.h
         src/infrastructure/ToolConfig.h

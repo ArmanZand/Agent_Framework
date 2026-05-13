@@ -1,36 +1,28 @@
 #ifndef AGENT_FRAMEWORK_LLAMAMODEL_H
 #define AGENT_FRAMEWORK_LLAMAMODEL_H
-#include "../interfaces/IModel.h"
 #include "LlamaWrapper.h"
 
-class LlamaModel  : public IModel {
+struct ModelConfig {
+    std::string model_path;
+    std::string model_name;
+    int n_gpu_layers = 99;
+    int n_ctx = 2048;
+    int n_batch = 2048;
+    int n_threads = 1;
+    int n_threads_batch = 1;
+    bool verbose = false;
+};
+
+class LlamaModel {
 public:
     ~LlamaModel();
 
     static std::optional<LlamaModel> create(ModelConfig config_);
 
-    // IModel implementations
-    GenerateResult generate(const GenerateParams & params) override;
-    std::unique_ptr<Session> create_session(int n_ctx = 2048) override;
-    GenerateResult generate_with_session(Session* session, const GenerateParams & params) override;
-
     // Get general info
-    int get_context_size() const override { return config.n_ctx; }
-    std::string get_model_name() const override { return config.model_name; };
+    int get_context_size() const { return config.n_ctx; }
+    std::string get_model_name() const { return config.model_name; };
 
-    // Llama Session
-    class LlamaSession : public Session {
-    public:
-        llama_context * ctx;
-        llama_sampler * sampler;
-        LlamaWrapper * llama;
-
-        LlamaSession(llama_context * c, llama_sampler * s, LlamaWrapper * l) : ctx(c), sampler(s), llama(l) {}
-        ~LlamaSession() {
-            if (sampler) llama->sampler_free(sampler);
-            if (ctx) llama->llama_free(ctx);
-        }
-    };
 
     // Expose llama.cpp functions for agents
     LlamaWrapper & get_llama() { return llama; }
@@ -45,7 +37,6 @@ public:
     // Can std::move
     LlamaModel(LlamaModel&&) noexcept;
     LlamaModel& operator=(LlamaModel&&) noexcept;
-
 
 private:
     LlamaWrapper llama;
